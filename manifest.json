@@ -1,0 +1,14 @@
+{
+    "name": "blocksite",
+    "version": "1.0",
+    "description": "",
+    "permissions": ["declarativeContent", "storage", "activeTab"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "manifest_version": 2
+}
